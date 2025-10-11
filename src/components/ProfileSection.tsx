@@ -20,9 +20,6 @@ export const ProfileSection = () => {
         Software Engineer 
       </p>
 
-      <p className="font-mono text-sm leading-relaxed tracking-wide text-text-secondary mb-6 max-w-xl mx-auto">
-        Building things that work, matter — and sometimes just to cure boredom.
-      </p>
       
       <Navigation />
       
