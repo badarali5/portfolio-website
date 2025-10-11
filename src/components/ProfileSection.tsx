@@ -19,6 +19,10 @@ export const ProfileSection = () => {
       <p className="font-mono text-lg text-text-secondary mb-6">
         Software Engineer 
       </p>
+
+      <p className="font-mono text-lg text-text-secondary mb-10">
+        Building things that work, matter — and sometimes just to cure boredom.
+      </p>
       
       <Navigation />
       
