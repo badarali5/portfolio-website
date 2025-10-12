@@ -7,6 +7,8 @@ export const TechSection = () => {
           <h3 className="font-mono text-base text-text-primary mb-2 random-underline-hover">💻 Programming Languages</h3>
           <ul className="grid grid-cols-2 gap-2">
             <li>Java ☕</li>
+            <li>C 💻</li>
+            <li>Python 🐍</li>
             <li>C++ ⚡</li>
             <li>JavaScript 🌐</li>
             <li>HTML 📝</li>
