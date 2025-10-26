@@ -24,11 +24,11 @@ export const ProfileSection = () => {
       <Navigation />
       
       <div className="max-w-2xl mx-auto text-left">
-        <p className="font-mono text-sm leading-relaxed text-text-secondary mb-4">
+        <p className="font-mono text-sm leading-relaxed text-text-secondary mb-4 opacity-80">
           Hi! I'm Badar, a Software Engineering student at FAST NUCES.
         </p>
         
-        <p className="font-mono text-sm leading-relaxed text-text-secondary mb-4">
+        <p className="font-mono text-sm leading-relaxed text-text-secondary mb-4 opacity-80">
           I love turning ideas into real projects. 
           From web apps to backend systems, I am exploring how tech and startups can solve problems
            that actually matter. Always building, always learning.

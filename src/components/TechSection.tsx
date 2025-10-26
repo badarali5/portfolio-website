@@ -25,6 +25,7 @@ export const TechSection = () => {
         <div>
           <h3 className="font-mono text-base text-text-primary mb-2 random-underline-hover">🗄️ Databases</h3>
           <ul className="grid grid-cols-2 gap-2">
+            <li>MySQL </li>
             <li>PostgreSQL </li>
             <li>Supabase </li>
           </ul>
