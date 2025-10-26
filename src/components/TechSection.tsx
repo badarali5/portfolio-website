@@ -4,7 +4,7 @@ export const TechSection = () => {
       <h2 className="font-mono text-2xl font-bold text-text-primary mb-6 random-underline-hover">Tech</h2>
       <div className="space-y-6 text-text-secondary font-mono text-sm leading-relaxed">
         <div>
-          <h3 className="font-mono text-base text-text-primary mb-2 random-underline-hover">💻 Programming Languages</h3>
+          <h3 className="font-mono text-base text-text-primary mb-1 random-underline-hover">💻 Programming Languages</h3>
           <ul className="grid grid-cols-2 gap-2">
             <li>Java </li>
             <li>C </li>
@@ -17,14 +17,14 @@ export const TechSection = () => {
         </div>
         <div>
           <h3 className="font-mono text-base text-text-primary mb-2 random-underline-hover">⚙️ Frameworks & Libraries</h3>
-          <ul className="grid grid-cols-2 gap-2">
+          <ul className="grid grid-cols-1 gap-1">
             <li>React </li>
             <li>Spring Boot </li>
           </ul>
         </div>
         <div>
           <h3 className="font-mono text-base text-text-primary mb-2 random-underline-hover">🗄️ Databases</h3>
-          <ul className="grid grid-cols-2 gap-2">
+          <ul className="grid grid-cols-1 gap-1">
             <li>MySQL </li>
             <li>PostgreSQL </li>
             <li>Supabase </li>
@@ -44,7 +44,7 @@ export const TechSection = () => {
         </div>
         <div>
           <h3 className="font-mono text-base text-text-primary mb-2 random-underline-hover">🧪 Testing</h3>
-          <ul className="grid grid-cols-2 gap-2">
+          <ul className="grid grid-cols-1 gap-2">
             <li>JUnit </li>
             <li>Jest </li>
           </ul>
