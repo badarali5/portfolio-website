@@ -1,54 +1,58 @@
 export const TechSection = () => {
   return (
-    <div className="max-w-2xl mx-auto">
-      <h2 className="font-mono text-2xl font-bold text-text-primary mb-6 random-underline-hover">Tech</h2>
-      <div className="space-y-6 text-text-secondary font-mono text-sm leading-relaxed">
-        <div>
-          <h3 className="font-mono text-base text-text-primary mb-1 random-underline-hover">💻 Programming Languages</h3>
-          <ul className="grid grid-cols-2 gap-2">
-            <li>Java </li>
-            <li>C </li>
-            <li>Python </li>
-            <li>C++ </li>
-            <li>JavaScript </li>
-            <li>HTML </li>
-            <li>CSS </li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="font-mono text-base text-text-primary mb-2 random-underline-hover">⚙️ Frameworks & Libraries</h3>
-          <ul className="grid grid-cols-1 gap-1">
-            <li>React </li>
-            <li>Spring Boot </li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="font-mono text-base text-text-primary mb-2 random-underline-hover">🗄️ Databases</h3>
-          <ul className="grid grid-cols-1 gap-1">
-            <li>MySQL </li>
-            <li>PostgreSQL </li>
-            <li>Supabase </li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="font-mono text-base text-text-primary mb-2 random-underline-hover">🚀 Tools & Platforms</h3>
-          <ul className="grid grid-cols-2 gap-2">
-            <li>Git & GitHub </li>
-            <li>Docker </li>
-            <li>Render</li>
-            <li>Railway</li>
-            <li>Vercel</li>
-            <li>Netlify </li>
-            <li>GitHub Actions </li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="font-mono text-base text-text-primary mb-2 random-underline-hover">🧪 Testing</h3>
-          <ul className="grid grid-cols-1 gap-2">
-            <li>JUnit </li>
-            <li>Jest </li>
-          </ul>
-        </div>
+    <div className="max-w-4xl mx-auto">
+  <h2 className="font-mono text-2xl font-bold text-text-primary mb-6 random-underline-hover text-center w-full">Skills</h2>
+
+      {/* Card grid: 1 col on small, 2 cols on sm+ */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        {/* Languages card */}
+        <section className="border border-border rounded-lg p-6 bg-background">
+          <h3 className="font-mono text-base text-text-primary mb-4 random-underline-hover">Languages</h3>
+          <div className="flex flex-wrap gap-2">
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">C++</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">C</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Java</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Python</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">JavaScript</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">HTML</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">CSS</span>
+          </div>
+        </section>
+
+        {/* Tools card */}
+        <section className="border border-border rounded-lg p-6 bg-background">
+          <h3 className="font-mono text-base text-text-primary mb-4 random-underline-hover">Tools</h3>
+          <div className="flex flex-wrap gap-2">
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Git</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Docker</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Render</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Railway</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Vercel</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Netlify</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">GitHub Actions</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">JUnit</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Jest</span>
+          </div>
+        </section>
+
+        {/* Frameworks & Libraries card */}
+        <section className="border border-border rounded-lg p-6 bg-background">
+          <h3 className="font-mono text-base text-text-primary mb-4 random-underline-hover">Frameworks & Libraries</h3>
+          <div className="flex flex-wrap gap-2">
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Spring Boot</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">React</span>
+          </div>
+        </section>
+
+        {/* Databases card */}
+        <section className="border border-border rounded-lg p-6 bg-background">
+          <h3 className="font-mono text-base text-text-primary mb-4 random-underline-hover">Databases</h3>
+          <div className="flex flex-wrap gap-2">
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">MySQL</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">PostgreSQL</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Supabase</span>
+          </div>
+        </section>
       </div>
     </div>
   );
