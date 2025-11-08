@@ -13,15 +13,12 @@ const projects: Project[] = [
     title: 'FAST Notes Hub',
     description: (
       <>
-        <p className="font-mono text-sm text-text-secondary/80 mb-2">
-  A notes and past papers hub for FAST university students, 
-    <span className="text-text-secondary opacity-100 font-semibold"> solving a real-world academic need</span>, with{' '}
-  <span className="text-text-secondary opacity-100 font-semibold">1800+ active users</span>, generating{' '}
-  <span className="text-text-secondary opacity-100 font-semibold">11000+ views</span>, and handling{' '}
-  <span className="text-text-secondary opacity-100 font-semibold">31000+ total events</span> with a{' '}
-  <span className="text-text-secondary opacity-100 font-semibold">60% engagement rate</span>.
-</p>
-
+        A notes and past papers hub for FAST university students,{' '}
+        <span className="text-text-secondary opacity-100 font-bold">solving a real-world academic need</span>, with{' '}
+        <span className="text-text-secondary opacity-100 font-bold">1800+ active users</span>, generating{' '}
+        <span className="text-text-secondary opacity-100 font-bold">11000+ views</span>, and handling{' '}
+        <span className="text-text-secondary opacity-100 font-bold">31000+ total events</span> with a{' '}
+        <span className="text-text-secondary opacity-100 font-bold">60% engagement rate</span>.
       </>
     ),
     stack: ['React.js', 'Supabase', 'Tailwind CSS'],
@@ -78,7 +75,12 @@ export const ProjectsSection = () => {
                   {p.description}
                 </p>
                 <p className="font-mono text-xs text-text-secondary opacity-80">
-                  Stack: {p.stack.join(', ')}
+                  Stack:{' '}
+                  {p.stack.map((s, idx) => (
+                    <span key={idx} className="font-bold text-text-secondary opacity-100">
+                      {s}{idx < p.stack.length - 1 ? ', ' : ''}
+                    </span>
+                  ))}
                 </p>
               </a>
             ) : (
@@ -90,7 +92,12 @@ export const ProjectsSection = () => {
                   {p.description}
                 </p>
                 <p className="font-mono text-xs text-text-secondary opacity-80">
-                  Stack: {p.stack.join(', ')}
+                  Stack:{' '}
+                  {p.stack.map((s, idx) => (
+                    <span key={idx} className="font-semibold text-text-secondary opacity-100">
+                      {s}{idx < p.stack.length - 1 ? ', ' : ''}
+                    </span>
+                  ))}
                 </p>
               </>
             )}

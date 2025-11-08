@@ -48,8 +48,8 @@ export const TechSection = () => {
         <section className="border border-border rounded-lg p-6 bg-background">
           <h3 className="font-mono text-base text-text-primary mb-4 random-underline-hover">Databases</h3>
           <div className="flex flex-wrap gap-2">
-            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">MySQL</span>
             <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">PostgreSQL</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">MySQL</span>
             <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Supabase</span>
           </div>
         </section>
