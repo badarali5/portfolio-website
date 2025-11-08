@@ -29,9 +29,7 @@ export const ProfileSection = () => {
         </p>
         
         <p className="font-mono text-sm leading-relaxed text-text-secondary mb-4 opacity-80">
-          I love turning ideas into real projects. 
-          From web apps to backend systems, I am exploring how tech and startups can solve problems
-           that actually matter. Always building, always learning.
+I build real projects that solve real problems. From web apps to backend systems, I focus on creating tech that’s practical, impactful, and beautifully engineered. Always learning, always shipping.
         </p>
         
         {/* <p className="font-mono text-sm leading-relaxed text-text-secondary">

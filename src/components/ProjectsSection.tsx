@@ -37,13 +37,14 @@ const projects: Project[] = [
   {
     title: 'Portfolio Website',
     description: <>Personal portfolio site showcasing projects and skills.</>,
-    stack: ['React', 'TypeScript', 'Vite'],
+    stack: ['React.js', 'TypeScript', 'Vite'],
     link: '#',
   },
   {
     title: 'GetJob Website',
-    description: <>Job finder website with CI/CD pipeline.</>,
-    stack: ['Spring Boot', 'PostgreSQL', 'Docker', 'Railway', 'GitHub Actions'],
+    description: <>Job portal with automated CI/CD pipeline, built to streamline job listings and 
+    helping students land internships and entry-level jobs.</>,
+    stack: ['Spring Boot','React.js' ,'PostgreSQL'],
     link: '#',
   },
 ];
