@@ -20,6 +20,17 @@ export const TechSection = () => {
         </section>
 
         {/* Tools card */}
+        
+
+        {/* Frameworks & Libraries card */}
+        <section className="border border-border rounded-lg p-6 bg-background">
+          <h3 className="font-mono text-base text-text-primary mb-4 random-underline-hover">Frameworks & Libraries</h3>
+          <div className="flex flex-wrap gap-2">
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Spring Boot</span>
+            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">React</span>
+          </div>
+        </section>
+
         <section className="border border-border rounded-lg p-6 bg-background">
           <h3 className="font-mono text-base text-text-primary mb-4 random-underline-hover">Tools</h3>
           <div className="flex flex-wrap gap-2">
@@ -32,15 +43,6 @@ export const TechSection = () => {
             <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">GitHub Actions</span>
             <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">JUnit</span>
             <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Jest</span>
-          </div>
-        </section>
-
-        {/* Frameworks & Libraries card */}
-        <section className="border border-border rounded-lg p-6 bg-background">
-          <h3 className="font-mono text-base text-text-primary mb-4 random-underline-hover">Frameworks & Libraries</h3>
-          <div className="flex flex-wrap gap-2">
-            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">Spring Boot</span>
-            <span className="inline-block px-3 py-1 rounded text-xs font-mono bg-muted/40 border border-border text-text-primary">React</span>
           </div>
         </section>
 
