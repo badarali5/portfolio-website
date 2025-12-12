@@ -25,7 +25,7 @@ const projects: Project[] = [
     link: 'https://fast-notes-hub.vercel.app/',
   },
   {
-    title: 'Cricket-Zone',
+    title: 'Cric-Zone',
     description: (
       <>
         A cricket stats and updates platform where users can build their own custom team by choosing favorite players and tracking their stats.
@@ -35,7 +35,7 @@ const projects: Project[] = [
     link: 'https://github.com/badarali5/cricket-fantasy-team',
   },
    {
-    title: 'GetJob Website',
+    title: 'GetJob',
     description: <>Job portal solving {' '}
         <span className="text-text-secondary opacity-100 font-bold">solving a real-world need</span>, with{' '} automated CI/CD pipeline, built to streamline job listings and 
     helping students land internships and entry-level jobs.</>,
