@@ -21,7 +21,7 @@ const projects: Project[] = [
         <span className="text-text-secondary opacity-100 font-bold">60% engagement rate</span>.
       </>
     ),
-    stack: ['React.js', 'Supabase', 'Tailwind CSS'],
+    stack: ['React.js','Next.js', 'Supabase', 'Tailwind CSS'],
     link: 'https://fast-notes-hub.vercel.app/',
   },
   {
@@ -31,8 +31,16 @@ const projects: Project[] = [
         A cricket stats and updates platform where users can build their own custom team by choosing favorite players and tracking their stats.
       </>
     ),
-    stack: ['Spring Boot', 'PostgreSQL', 'Maven', 'React.js'],
+    stack: ['Java','Spring Boot', 'PostgreSQL', 'React.js' ,'Maven'],
     link: 'https://github.com/badarali5/cricket-fantasy-team',
+  },
+   {
+    title: 'GetJob Website',
+    description: <>Job portal solving {' '}
+        <span className="text-text-secondary opacity-100 font-bold">solving a real-world need</span>, with{' '} automated CI/CD pipeline, built to streamline job listings and 
+    helping students land internships and entry-level jobs.</>,
+    stack: ['Java','Spring Boot','React.js' ,'PostgreSQL'],
+    link: 'https://getjobportal.vercel.app/',
   },
   {
     title: 'Portfolio Website',
@@ -40,13 +48,7 @@ const projects: Project[] = [
     stack: ['React.js', 'TypeScript', 'Vite'],
     link: '#',
   },
-  {
-    title: 'GetJob Website',
-    description: <>Job portal with automated CI/CD pipeline, built to streamline job listings and 
-    helping students land internships and entry-level jobs.</>,
-    stack: ['Spring Boot','React.js' ,'PostgreSQL'],
-    link: '#',
-  },
+ 
 ];
 
 export const ProjectsSection = () => {
