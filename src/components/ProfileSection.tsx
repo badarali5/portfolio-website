@@ -29,8 +29,8 @@ export const ProfileSection = () => {
         </p>
         
         <p className="font-mono text-sm leading-relaxed text-text-secondary mb-4 opacity-80">
-I build real projects that solve real problems. From web apps to backend systems, I focus on creating tech that’s practical, impactful, and beautifully engineered. Always learning, always shipping.
-        </p>
+Hi! I'm Badar, an Aspiring Backend Engineer and Software Engineering student at FAST NUCES (Class of 2028).
+I build backend systems that are fast, scalable, and built to last. From REST APIs and databases to architecture decisions and CI/CD pipelines, I care about the depth behind the code.    </p>
         
         {/* <p className="font-mono text-sm leading-relaxed text-text-secondary">
           You should <a href="#" className="text-text-accent underline hover:text-highlight transition-colors">subscribe to my newsletter</a>!
