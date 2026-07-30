@@ -10,7 +10,7 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Dark developer theme colors */
-    --background: 220 13% 18%;
+    --background: 222 21% 15%;
     --foreground: 220 14% 96%;
 
     --card: 220 13% 16%;

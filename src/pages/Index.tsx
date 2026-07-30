@@ -1,6 +1,7 @@
 import { ProfileSection } from "@/components/ProfileSection";
 import { BlogSection } from "@/components/BlogSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
+import { ExperienceSection } from "@/components/ExperienceSection";
 import { TechSection } from "@/components/TechSection";
 
 const Index = () => {
@@ -8,6 +9,10 @@ const Index = () => {
     <div className="min-h-screen bg-background font-mono">
       <div className="max-w-4xl mx-auto px-6 py-12">
         <ProfileSection />
+
+        <section id="experience" className="mb-16">
+          <ExperienceSection />
+        </section>
 
         <section id="projects" className="mb-16">
           <ProjectsSection />

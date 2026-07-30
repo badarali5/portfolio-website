@@ -15,14 +15,21 @@ const projects: Project[] = [
       <>
         A notes and past papers hub for FAST university students,{' '}
         <span className="text-text-secondary opacity-100 font-bold">solving a real-world academic need</span>, with{' '}
-        <span className="text-text-secondary opacity-100 font-bold">1800+ active users</span>, generating{' '}
-        <span className="text-text-secondary opacity-100 font-bold">11000+ views</span>, and handling{' '}
-        <span className="text-text-secondary opacity-100 font-bold">31000+ total events</span> with a{' '}
+        <span className="text-text-secondary opacity-100 font-bold">5800+ active users</span>, generating{' '}
+        <span className="text-text-secondary opacity-100 font-bold">52000+ views</span>, and handling{' '}
+        <span className="text-text-secondary opacity-100 font-bold">59000+ total events</span> with a{' '}
         <span className="text-text-secondary opacity-100 font-bold">60% engagement rate</span>.
       </>
     ),
     stack: ['React.js','Next.js', 'Supabase', 'Tailwind CSS'],
     link: 'https://fast-notes-hub.vercel.app/',
+  },
+  {
+    title: 'GetJob',
+    description: <>
+        <span className="text-text-secondary opacity-100 font-bold">Solving a real-world need</span>, by{' '} building a production-ready full-stack job search platform with Spring Boot, React, PostgreSQL, Docker, AWS, and CI/CD for scalable internship and entry-level recruitment</>,
+    stack: ['Java','Spring Boot','React.js' ,'PostgreSQL'],
+    link: 'https://getjobportal.vercel.app/',
   },
   {
     title: 'Cric-Zone',
@@ -34,14 +41,7 @@ const projects: Project[] = [
     stack: ['Java','Spring Boot', 'PostgreSQL', 'React.js' ,'Maven'],
     link: 'https://github.com/badarali5/cricket-fantasy-team',
   },
-   {
-    title: 'GetJob',
-    description: <>Job portal solving {' '}
-        <span className="text-text-secondary opacity-100 font-bold">solving a real-world need</span>, with{' '} automated CI/CD pipeline, built to streamline job listings and 
-    helping students land internships and entry-level jobs.</>,
-    stack: ['Java','Spring Boot','React.js' ,'PostgreSQL'],
-    link: 'https://getjobportal.vercel.app/',
-  },
+   
   {
     title: 'Portfolio Website',
     description: <>Personal portfolio site showcasing projects and skills.</>,

@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 
 const navigation = [
 	{ name: "home", href: "#", active: true },
+	{ name: "experience", href: "#experience" },
 	{ name: "projects", href: "#projects" },
 	{ name: "skills", href: "#tech" },
 	{ name: "blog", href: "#blog" }, // internal route now opens in same tab
